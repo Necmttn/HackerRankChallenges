@@ -1,5 +1,3 @@
-// i also didn't get it much about this code.
-
 function main() {
   var n = parseInt(readLine());
   for (var i = 1; i < n ; i++){
