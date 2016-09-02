@@ -2,10 +2,10 @@
 
 function main() {
   var n = parseInt(readLine());
-  for (var i = 0; i < n ; i++){
+  for (var i = 1; i < n ; i++){
     line = '';
-    for(var j = 0; j < n; j++){
-      if(n - i - 2 < j)
+    for(var j = 1; j < n; j++){
+      if(n - i < j)
       {
         line += "#";
       }
